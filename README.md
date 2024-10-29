@@ -44,23 +44,23 @@ TOpPLUG HUNTER🕷🐼
 # TERMUX INSTALLATION MANUAL 
 how to scan using TOpPLUG-hunter
 **»»install the following on termux:**
-''''
+````
 pkg install python 
 pkg install git
 pip install websocket-client 
 pip install requests 
 pip install loguru 
 pip install sockets
-''''
+````
 
 **#»» after installing them**
 you need to activate the repo on your termux 
 by :
-''''
+````
 git clone https://github.com/Hubdarkweb/TOpPLUG-hunters.git
-''''
+````
 **#HOW TO SCAN**
-''''
+````
 -h
 usage: TOpPLUG-Hunters.py [-h] [-f FILENAME] [-c CDIR]
                       [-m {direct,proxy,ssl,udp,ws,ping}]
@@ -80,31 +80,31 @@ options:
   -P PROXY, --proxy PROXY                       proxy
   -o OUTPUT, --output OUTPUT                    output file name
   -T THREADS, --threads THREADS                 threads
-''''
+````
   **command for scanning**
-  ''''
+  ````
   python TOpPLUG-Hunters.py -c 192.168.0.0/24 -m direct -M POST -T 100
-  ''''
-  ''''
+  ````
+  ````
   python TOpPLUG-Hunters.py -c 192.168.0.0/16-m ws -M HEAD -T 100
-  ''''
-  ''''
+  ````
+  ````
   python TOpPLUG-Hunters.py -c 192.168.0.0/12 -m ssl -M GET -T 100
-  ''''
-  ''''
+  ````
+  ````
   python TOpPLUG-Hunters.py -c 192.168.0.0/32 -m udp -M GET -T 100
-  ''''
+  ````
 **SCAN USING HOSTS INSIDE HOSTS.TXT FILE**
-  ''''
+  ````
   python TOpPLUG-Hunters.py -f hosts.txt -m direct -M POST -T 100
-  ''''
-  ''''
+  ````
+  ````
   python TOpPLUG-Hunters.py -f hosts.txt -m ws -M HEAD-T 100
-  ''''
-  ''''
+  ````
+  ````
   python TOpPLUG-Hunters.py -c hosts.txt -m ssl -M GET -T 100
-  ''''
-  ''''
+  ````
+  ````
   python TOpPLUG-Hunters.py -c hosts.txt -m udp -M PATCH -T 100
-  ''''
+  ````
   enjoy unlimited 
