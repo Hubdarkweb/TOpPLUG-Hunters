@@ -60,10 +60,15 @@ by :
 ````
 git clone https://github.com/Hubdarkweb/TOpPLUG-hunters.git
 ````
+**#then current directory**
+````
+cd TOpPLUG-hunters
+````
 **#HOW TO SCAN**
 ````
 -h
-usage: TOpPLUG-Hunter.py [-h] [-f FILENAME] [-c CDIR]
+usage: python TOpPLUG-Hunter.py
+options.              [-h] [-f FILENAME] [-c CDIR]
                       [-m {direct,proxy,ssl,udp,ws,ping}]
                       [-M METHOD_LIST] [-p PORT_LIST] [-P PROXY]
                       [-o OUTPUT] [-T THREADS]
