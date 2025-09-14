@@ -51,6 +51,7 @@ pip install websocket-client
 pip install requests 
 pip install loguru 
 pip install sockets
+pip install multithreading 
 ````
 
 **#»» after installing them**
